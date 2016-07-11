@@ -15,6 +15,7 @@ func main() {
 }
 
 func maxSlice(sl []int) (max int) {
+	max = sl[0]
 	for _, v := range sl {
 		if v > max {
 			max = v
